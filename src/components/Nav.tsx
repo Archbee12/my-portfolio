@@ -10,7 +10,7 @@ const links = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
-const Nav = () => {
+export default function Nav() {
   const pathname = usePathname();
   return (
     <nav className="flex items-center gap-8">
@@ -30,5 +30,3 @@ const Nav = () => {
     </nav>
   );
 };
-
-export default Nav;

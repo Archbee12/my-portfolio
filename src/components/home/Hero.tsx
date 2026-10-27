@@ -2,12 +2,13 @@
 import Link from "next/link";
 import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import TypingEffect from "./TypingEffect";
 
 export default function Hero() {
   return (
     <section className="flex min-h-[55vh] flex-col justify-center gap-6 py-12 sm:py-16 lg:min-h-[65vh]">
       <p className="text-sm font-medium tracking-widest text-accent">
-        SOFTWARE DEVELOPER IN PROGRESS
+        <TypingEffect />
       </p>
 
       <h1 className="max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-7xl">
